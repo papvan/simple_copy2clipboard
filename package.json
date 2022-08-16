@@ -1,0 +1,19 @@
+{
+  "name": "simple_copy2clipboard",
+  "version": "0.0.1",
+  "description": "",
+  "main": "copy2clipboard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/papvan/simple_copy2clipboard.git"
+  },
+  "author": "Robert L",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/papvan/simple_copy2clipboard/issues"
+  },
+  "homepage": "https://github.com/papvan/simple_copy2clipboard#readme"
+}
