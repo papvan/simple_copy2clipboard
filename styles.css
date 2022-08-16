@@ -19,11 +19,20 @@
 }
 
 .copy2clipboard-icon {
-    background: #fff;
+    /*background: #fff;*/
+    background-color: #fff;
+    background: url("./icons/copy-icon.png");
+    background-size: 20px 20px;
     position: absolute;
     width: 20px;
     height: 20px;
     right: -2%;
+}
+
+.copy2clipboard-icon-copy {
+    background-image: url("./icons/copy-icon.png");
+    /*background: url(./icons/copy-icon.png) repeat 0 0;*/
+    background-position: center center;
 }
 
 .copy2clipboard-btn:hover {
