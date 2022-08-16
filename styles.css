@@ -1,0 +1,73 @@
+.copy2clipboard {
+}
+
+.copy2clipboard-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    opacity: 0;
+}
+
+.copy2clipboard:hover {
+    position: relative;
+    margin: 0 0 5px 0 ;
+    padding: 1.75rem 0 0 0;
+}
+
+.copy2clipboard:hover .copy2clipboard-btn {
+    opacity: 1;
+}
+
+.copy2clipboard-icon {
+    background: #fff;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -2%;
+}
+
+.copy2clipboard-btn:hover {
+    cursor: pointer;
+}
+
+.tooltiptext.copied:before {
+    content: "Copied!";
+}
+.tooltiptext:before {
+    content: "Copy to clipboard";
+}
+
+.copy2clipboard-btn .tooltiptext {
+    font-family: "Work sans",sans-serif;
+    font-weight: 300;
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s;
+    top: 24px;
+    right: -45px;
+
+}
+
+/*.copy2clipboard-btn .tooltiptext::after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 100%;*/
+/*    left: 50%;*/
+/*    margin-left: -5px;*/
+/*    border-width: 5px;*/
+/*    border-style: solid;*/
+/*    border-color: #555 transparent transparent transparent;*/
+/*}*/
+
+.copy2clipboard-btn:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
