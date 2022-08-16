@@ -1,0 +1,2 @@
+# Simple Copy2Clipboard
+
