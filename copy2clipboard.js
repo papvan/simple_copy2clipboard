@@ -1,4 +1,4 @@
-const copyButtonImg = "icons/copy-icon.png"
+const copyButtonImg = "./icons/copy-icon.png"
 
 document.addEventListener('DOMContentLoaded', function(){
     let blocks = document.querySelectorAll(".copy2clipboard");
@@ -10,9 +10,12 @@ document.addEventListener('DOMContentLoaded', function(){
             button.innerText = "";
             button.addEventListener("click", copyCode);
 
-            let icon = document.createElement('img');
-            icon.src = copyButtonImg;
+            let image = document.createElement('i');
+            image.className = 'copy2clipboard-icon-copy'
+            let icon = document.createElement('span');
+            // icon.src = copyButtonImg;
             icon.className = "copy2clipboard-icon";
+            icon.appendChild(image);
 
 
             let tooltip = document.createElement("span");
