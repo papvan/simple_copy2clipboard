@@ -19,9 +19,9 @@
 }
 
 .copy2clipboard-icon {
-    /*background: #fff;*/
-    background-color: #fff;
-    background: url("./icons/copy-icon.png");
+    color: #fff;
+    background: url("./icons/copy-icon.png") no-repeat 0, 0 #fff;
+    background-blend-mode: multiply;
     background-size: 20px 20px;
     position: absolute;
     width: 20px;
