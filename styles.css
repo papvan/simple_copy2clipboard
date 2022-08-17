@@ -10,8 +10,6 @@
 
 .copy2clipboard:hover {
     position: relative;
-    margin: 0 0 5px 0 ;
-    padding: 1.75rem 0 0 0;
 }
 
 .copy2clipboard:hover .copy2clipboard-btn {
@@ -27,11 +25,12 @@
     width: 20px;
     height: 20px;
     right: -2%;
+    bottom: 10%;
+
 }
 
 .copy2clipboard-icon-copy {
     background-image: url("./icons/copy-icon.png");
-    /*background: url(./icons/copy-icon.png) repeat 0 0;*/
     background-position: center center;
 }
 

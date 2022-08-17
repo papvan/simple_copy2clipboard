@@ -2,12 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>Examples of usage</title>
   <link rel="stylesheet" href="styles.css" />
   <script src="copy2clipboard.js"></script>
+  <style>
+      table th, td {
+        border: solid 1px;
+      }
+  </style>
 </head>
 <body>
 <div style="padding: 35px;">
+  <h1>Examples of usage</h1>
+  <h2>Usage for a few words in text</h2>
   <p>
     <span class="copy2clipboard" style="font-weight: bold">Lorem Ipsum</span> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
     standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
@@ -16,8 +23,9 @@
     Lorem <span id="data-copy" class="copy2clipboard" style="font-weight: bold">Ipsum passages</span>, and more recently with desktop publishing software like Aldus PageMaker including
     versions of Lorem Ipsum.
   </p>
+  <hr>
 
-
+  <h2>Usage for all paragraph</h2>
   <div>
     <p class="copy2clipboard">
       There are many variations of passages of Lorem Ipsum available, but the majority have suffered
@@ -30,6 +38,24 @@
       non-characteristic words etc.
     </p>
   </div>
+
+  <hr>
+  <h2>Usage for table block</h2>
+  <div class="copy2clipboard">
+    <table style="width: 100%;">
+      <tr>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+      </tr>
+      <tr>
+        <td>f1</td>
+        <td>f2</td>
+        <td>f3</td>
+      </tr>
+    </table>
+  </div>
+
 </div>
 </body>
 </html>
